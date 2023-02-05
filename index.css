@@ -1,0 +1,31 @@
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-size: 30px;
+  margin:.5rem;
+  width:100%;
+
+}
+.nav-bar-tabs {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border: 2px solid black;
+  padding:1rem;
+
+}
+.about-me{
+  display:flex;
+  flex:1;
+  margin:1rem;
+  padding:1rem;
+  align-items:center;
+  justify-content:center;
+  align-text:center;
+  border: 2px solid black;
+  width:auto;
+  
+
+}
