@@ -1,3 +1,3 @@
-function printName(name){
-    console.log(name);
+function printName(){
+    console.log("Amir");
 }
