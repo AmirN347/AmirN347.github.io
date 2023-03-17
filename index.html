@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="index.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link src="style.css" type="styles" />
+    <script src="buka.js"></script>
+    <title>buka buka admin panel</title>
   </head>
+
   <body>
     <nav class="nav-bar">
       <h2 class="main-logo">Amirs Mathematics</h2>
@@ -39,5 +44,51 @@
       <h2>All About Matrix's</h2>
     </article>
     <script src="" async defer></script>
+    <div class="container">
+      <div class="row">
+        <h1 class="mb-1 text-center">buka buka admin panel</h1>
+      </div>
+      <div class="row mt-4">
+        <div class="col">
+          <!--Step 2: Make it so when the "wake-up button" is clicked, then function from step 1 is called-->
+          <button
+            type="button"
+            class="btn btn-primary"
+            id="wake-up"
+            onclick="wakeup()"
+          >
+            wake up
+          </button>
+        </div>
+        <div class="col">
+          <!--Step 4: Make it so when the "sleep button" is clicked, then function from step 3 is called-->
+          <button
+            type="button"
+            class="btn btn-primary"
+            id="sleep"
+            onclick="sleep()"
+          >
+            sleep
+          </button>
+        </div>
+        <div class="col">
+          <p><b>happiness:</b></p>
+          <input placeholder="0.5" id="happiness" />
+          <button
+            type="button"
+            class="btn btn-success mt-3"
+            onclick="sendHappiness()"
+          >
+            send happiness
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

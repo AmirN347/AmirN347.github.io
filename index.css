@@ -1,56 +1,41 @@
-body{
- 
-}
-
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 5px;
-  padding-right:10px;
-  border:outset black;
-  background-color: #2C2C34;
-  border-radius:5px;
-
-
- 
+  padding-right: 10px;
+  border: outset black;
+  background-color: #2c2c34;
+  border-radius: 5px;
 }
-.main-logo{
-  font-size:23px;
-color:white;
-
+.main-logo {
+  font-size: 23px;
+  color: white;
 }
-.nav-tabs{
- list-style-type: none;
- 
-
+.nav-tabs {
+  list-style-type: none;
 }
-.nav-tabs li{
-  display:inline-block;
-padding-right: 0.5rem ;
-padding-left:.5rem;
-list-style-type: none;
+.nav-tabs li {
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  list-style-type: none;
 }
-.nav-tabs li a{
-  text-decoration:none;
-  color:#AEAEAE;
-  font-size:20px;
-
-
-}
-.contact-me{
-  background-color: #8AC4FF ;
-  border-radius:10px;
-  padding-left:5px;
-  padding-right:5px;
-
-
-}
-.contact-me a{
+.nav-tabs li a {
   text-decoration: none;
-  color:black;
+  color: #aeaeae;
+  font-size: 20px;
+}
+.contact-me {
+  background-color: #8ac4ff;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.contact-me a {
+  text-decoration: none;
+  color: black;
   font-weight: normal;
-
 }
 .about-me {
   display: flex;
