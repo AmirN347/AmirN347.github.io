@@ -14,5 +14,10 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
-  }
+  },
+  
+  "main": "independent.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
